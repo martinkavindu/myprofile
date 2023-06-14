@@ -1,0 +1,32 @@
+.portifolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+.portifolio span:nth-of-type(1){
+    color: darkblue;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.portifolio span:nth-of-type(2){
+color: darkorange;
+font-size: 2.5rem;
+font-size: bold;
+}
+.portifolio .swiper{
+    overflow: visible !important;
+
+}
+.portifolio-slider{
+    margin-top: 3rem;
+    width: 100%;
+}
+.portifolio-slider .swiper-slider{
+    width: 20rem;
+}
+.portifolio img{
+    width: 19rem;
+}
