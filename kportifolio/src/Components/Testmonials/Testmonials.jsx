@@ -3,8 +3,8 @@ import './Testmonials.css';
 const Testmonials = () => {
   return (
     <div className='t-wrapper'>
-<div className=''>
-     
+<div className='t-heading'>
+     <span>Clients always get</span>
 </div>
     </div>
   )
