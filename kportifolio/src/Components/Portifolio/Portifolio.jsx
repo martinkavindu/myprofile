@@ -11,7 +11,12 @@ const Portifolio = () => {
     <div className='portifolio'>
 <span> Recent Projects  </span>
 <span>Portfolio</span>
-<Swiper>
+<Swiper
+spaceBetween={30}
+slidesPerView={3}
+grabCursor={true}
+className='portifolio-slider'
+>
     <SwiperSlide>
 <img src={Sidebar}alt=''/>
     </SwiperSlide>
