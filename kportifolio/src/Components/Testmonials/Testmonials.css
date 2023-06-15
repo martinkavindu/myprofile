@@ -1,0 +1,24 @@
+.t-wrapper{
+    padding: 0 3rem 0 3rem;
+    height: 100vh;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    flex-direction: column;
+   gap: 2rem;
+    position: relative;
+}
+.t-heading{
+align-self: start;
+
+}
+.t-heading>*{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.t-heading span :nth-of-type(2){
+    color: var(--orange);
+}
+
