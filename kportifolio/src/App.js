@@ -7,6 +7,7 @@ import Works from "./Components/Works/Works";
 import Portifolio from "./Components/Portifolio/Portifolio";
 import Testmonials from "./Components/Testmonials/Testmonials";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
    <Portifolio/>
    <Testmonials/>
    <Contact/>
+   <Footer/>
     </div>
   );
 }
