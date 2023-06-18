@@ -14,6 +14,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "react-swiper": "^0.1.5",
     "react-typical": "^0.1.3",
     "swiper": "^9.4.1",

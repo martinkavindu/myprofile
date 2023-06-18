@@ -12,7 +12,7 @@ const Services = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className='services'>
+    <div className='services'id='Services'>
 <div className='awesome'>
     <span style={{color:darkMode? 'white':''}}> My Awesome</span>
     <span> Services </span>

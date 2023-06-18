@@ -5,11 +5,16 @@ import Fiverr from "../../img/fiverr.png";
 import Amazon  from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
+
 const Works = () => {
+    const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <div className='works' >
+    <div className='works' id='Works' >
 <div className='awesome'>
-    <span> Works for All</span>
+    <span style={{color: darkMode? 'white' : ''}}> Works for All these</span>
     <span> Brands $ Clients</span>
     <spane>As a front-end developer,<br/> I create visually appealing and interactive web experiences <br/>
         using HTML, CSS, and JavaScript.

@@ -29,6 +29,18 @@ font-size: bold;
 }
 .portifolio img{
     width: 19rem;
-   
     border-radius: 19px;
+}
+@media screen and (max-width: 480px) {
+    .portifolio{
+    padding: 0;
+
+    }
+    .portifolio>img{
+        width: 100%;
+        height: 100%;
+    }
+    
+
+    
 }

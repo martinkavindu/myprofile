@@ -24,7 +24,6 @@ function App() {
    <Services/>
    <Experience/>
    <Works/>
-   <Portifolio/>
    <Testmonials/>
    <Contact/>
    <Footer/>

@@ -43,3 +43,11 @@
 
 }
 
+@media screen and (max-width:480px) {
+    .experience{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+}

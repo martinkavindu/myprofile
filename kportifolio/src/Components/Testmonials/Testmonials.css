@@ -5,7 +5,7 @@
   padding: 0 3rem 0 3rem;
     align-items: center;
     justify-content: center;
-    margin-top: 7rem;
+    margin-top: 2rem;
     flex-direction: column;
    gap: 2rem;
     position: relative;
@@ -62,5 +62,15 @@ align-self: start;
     justify-content: center;
 }
 .t-wrapper .swiper-pagination-bullet-active{
-    background: darkorange;
+    background: darkorange; 
+}
+@media screen and (max-width:480px) {
+    .t-wrapper{
+        padding: 0;
+    }
+    .testimonial>img{
+        width: 70px;
+        height: 70px;
+    }
+    
 }
