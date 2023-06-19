@@ -2,7 +2,7 @@ import React from 'react';
 import "./Portifolio.css";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
+
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
 import 'swiper/css';
@@ -21,7 +21,7 @@ className='portifolio-slider'
 <img src={Sidebar}alt=''/>
     </SwiperSlide>
     <SwiperSlide>
-<img src={Ecommerce}alt=''/>
+<img src={''}alt=''/>
     </SwiperSlide>
     <SwiperSlide>
 <img src={HOC}alt=''/>
