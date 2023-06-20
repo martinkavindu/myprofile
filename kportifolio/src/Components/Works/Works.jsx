@@ -16,7 +16,7 @@ const Works = () => {
 <div className='awesome'>
     <span style={{color: darkMode? 'white' : ''}}> Works for All these</span>
     <span> Brands $ Clients</span>
-    <spane>As a front-end developer,<br/> I create visually appealing and interactive web experiences <br/>
+    <spane style={{color: darkMode? 'white' : ''}} >As a front-end developer,<br/> I create visually appealing and interactive web experiences <br/>
         using HTML, CSS, and JavaScript.
 
     </spane>

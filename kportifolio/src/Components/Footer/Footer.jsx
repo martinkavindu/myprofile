@@ -13,10 +13,15 @@ const Footer = () => {
 <div className='f-content'>
 
     <div className='f-icons'>
-        <Insta color="white"size="3rem"/>
-        <Facebook color="white"size="3rem"/>
-        <Github color="white"size="3rem"/>
-        <Twitter color="white"size="3rem"/>
+       <a href='https://www.instagram.com/accounts/login/'alt>
+         <Insta color="white"size="3rem"/></a>
+        <a href='https://www.facebook.com/login.php/'>
+        <Facebook color="white"size="3rem"/></a>
+        <a href='https://github.com/'>
+        <Github color="white"size="3rem"/></a>
+        <a href='https://twitter.com/i/flow/login'>
+        <Twitter color="white"size="3rem"/></a>
+
 
     </div>
     <div className="footer1">

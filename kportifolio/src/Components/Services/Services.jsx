@@ -16,7 +16,7 @@ const Services = () => {
 <div className='awesome'>
     <span style={{color:darkMode? 'white':''}}> My Awesome</span>
     <span> Services </span>
-    <spane> I specialize in React.js development, offering services such as building interactive SPAs, <br/>
+    <spane style={{color: darkMode? 'white' : ''}} > I specialize in React.js development, offering services such as building interactive SPAs, <br/>
         managing state with Redux or Context API and integrating APIs</spane>
         <a href='resume.pdf'download="kavindu.pdf">
                 <button className='button s-button'> Download CV</button>

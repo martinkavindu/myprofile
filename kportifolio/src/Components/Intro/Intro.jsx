@@ -25,10 +25,9 @@ const Intro = () => {
                 <span style={{color: darkMode? 'white' : ''}} 
                 > Hello! I AM</span>
                 <span>Martin Kavindu</span>
-                <span>
-Frontend Developer with  high level of Experience in web development
-and designing. Reactjs &Bootsrap Developer at heart and create features that are best suited for the job at hand.
-                </span>
+                <span style={{color: darkMode? 'white' : ''}} >
+                Experienced Frontend Developer specialized in web development and design.
+                 Passionate about ReactJS and Bootstrap, I create customized features for optimal results.                </span>
             </div>
             <Link spy={true} to= 'Contact' smooth={true} activeClass='activeClass'>
 
@@ -39,10 +38,10 @@ and designing. Reactjs &Bootsrap Developer at heart and create features that are
                 <a href='https://github.com/Mutuku1998'>
                 <img src={Github} alt=''/>
                 </a>
-              <a href='#'>
+              <a href='https://www.linkedin.com/login'>
                 <img src={LinkedIn} alt=''/>
                 </a>
-                <a href='#'>
+                <a href='https://www.instagram.com/accounts/login/'>
                 <img src={Instagram} alt=''/>
                 </a>
             </div>

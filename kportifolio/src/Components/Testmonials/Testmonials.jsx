@@ -13,19 +13,18 @@ const Testmonials = () => {
   const Clients = [
     {
     img:profilePic1,
-    review:"Thanks for the creative work you did for us, it was nice working with you. I really enjoy your services."
+    review:"Exceptional expertise and creativity. Advanced features, smooth process."
     },
     {
       img: profilePic2,
-      review: "Thanks for the creative work you did for us, it was nice working with you. I really enjoy your services."
-    },
+      review: "Grateful for their outstanding work. Professional, timely, and a pleasure to work with."},
     {
       img: profilePic3,
       review:"Thanks for the creative work you did for us, it was nice working with you. I really enjoy your services."
     },
     {
       img: ProfilePic4,
-      review:"Thanks for the creative work you did for us, it was nice working with you. I really enjoy your services."
+      review:"Fantastic experience. Attentive, valuable insights, and user-friendly website."
     }
   ]
   return (
