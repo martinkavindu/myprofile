@@ -23,6 +23,7 @@ function App() {
    <Intro/>
    <Services/>
    <Experience/>
+   <Portifolio/>
    <Works/>
    <Testmonials/>
    <Contact/>

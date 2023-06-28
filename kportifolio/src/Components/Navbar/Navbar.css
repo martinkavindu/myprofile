@@ -58,18 +58,20 @@
     .n-list{
         padding: 0;
         flex-direction: column;
-    
+ 
     }
     .items:nth-child(1){
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
+
         margin-top: 50px;
+
     }
     .items {
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
         text-align: center;
         margin-right: 0px;
         padding: 0px 0;
     flex-direction: column;
+    width: 100%;
+    cursor: pointer;
  
     }
     .btn {
