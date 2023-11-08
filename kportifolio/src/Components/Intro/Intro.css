@@ -99,15 +99,53 @@ padding: 0px;
     top: 18%;
     left: 56%;
 }
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0  1px 0px 0px white;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin: 0 0px 0 100px;
+  }
+  .profile-picture-background{
+    height: 100%;
+    width: 100%;
+    background-image: url(../../img/kavindu.JPG);
+    background-size: cover;
+    border-radius: 50%;
+    background-size: no-repeat;
+    background-position: center;
+  }
+  .profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+    .profile-details-role{
+        display: flex;
+        flex-direction: column;
+        margin: 14px 0 24px 0;
+      }
+      .primary-text h1{
+        font-size: 40px;
+        font-family: cursive;
+        color: white;
+      }
+      .primary-text{
+        color: (--white);
+      }
+  }
 @media screen and (max-width:480px) {
     .intro{
         flex-direction: column;
         height: 64rem;
         gap: 7rem;
+        margin-top: 2rem;
     }
     .i-right{
         transform: scale(0.8);
         left: -3rem;
+        margin-top: -12rem;
     }
     .i-right .blur{
         display: none;

@@ -4,7 +4,7 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import Sidebar from "../../img/sidebar.png";
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
-import Sea from "../../img/sea.png";
+import Sea from "../../img/bodaboda.png";
 import Ecommerce from "../../img/ecommerce.png";
 import Cart from "../../img/cart.png";
 import Ngao from "../../img/ngao.png"
@@ -23,13 +23,15 @@ grabCursor={true}
 className='portifolio-slider'
 >
     <SwiperSlide>
-<img src={Ngao}alt=''/>
+        <a href='https://ngaochemist.netlify.app/'>
+<img src={Ngao}alt=''/></a>
     </SwiperSlide>
     <SwiperSlide>
 <img src={Ecommerce}alt=''/>
     </SwiperSlide>
     <SwiperSlide>
-<img src={Sea}alt=''/>
+        <a href='https://kilifibodaboda.netlify.app/'>
+<img src={Sea}alt=''/></a>
     </SwiperSlide>
     <SwiperSlide>
 <img src={Cart}alt=''/>

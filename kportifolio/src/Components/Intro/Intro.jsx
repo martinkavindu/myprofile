@@ -2,10 +2,7 @@ import React from 'react';
 import './Intro.css';
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
-import Vector1 from "../../img/Vector1.png";
-import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/mutuku.png";
+import Instagram from "../../img/instagram.png"
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import thumbup from "../../img/thumbup.png"
 import Crown from "../../img/crown.png";
@@ -14,6 +11,7 @@ import { themeContext } from '../../Context';
 import { useContext } from 'react';
 import {motion} from 'framer-motion';
 import { Link } from 'react-scroll';
+import Typical from "react-typical";
 const Intro = () => {
   const transition= {duration: 2, type:'spring'}
   const theme = useContext(themeContext);
@@ -23,11 +21,27 @@ const Intro = () => {
         <div className='i-left' >
             <div className='i-name'>
                 <span style={{color: darkMode? 'white' : ''}} 
-                > Hello! I AM</span>
-                <span>Martin Kavindu</span>
+                > Hello! </span>
+                <div className='profile-details-role'>
+                < span className='primary-text' style={{color: darkMode? 'white' : ''}} >
+                    {""}
+                    <h1>
+                    <Typical
+loop={Infinity}
+steps={[
+  "Martin Kavindu",1000,
+    "Ethusiastic Dev😘",1000,
+    "Front-end Developer 💻",1000,
+    "Cross Platform dev 🌐",1000,
+    "react Dev📱",1000,
+
+]}/>
+                    </h1>
+                    </span>
+                    </div>
                 <span style={{color: darkMode? 'white' : ''}} >
-                Experienced Frontend Developer specialized in web development and design.
-                 Passionate about ReactJS and Bootstrap, I create customized features for optimal results.                </span>
+                Experienced front-end developer with a strong passion for crafting elegant and functional user interfaces. 
+    Proficient in HTML, CSS, and JavaScript, with expertise in modern frameworks like React and Bootstrap5                </span>
             </div>
             <Link spy={true} to= 'Contact' smooth={true} activeClass='activeClass'>
 
@@ -47,12 +61,12 @@ const Intro = () => {
             </div>
         </div>
         <div className='i-right'>
-      
-      <img src={ Vector1} alt=''/>
-      
-      <img src={ Vector2} alt=''/>
-      
-      <img src={ boy} alt=''/>
+        <div className='profile-picture'>
+                <div className='profile-picture-background'>
+
+                </div>
+            </div>
+    
       <motion.img 
       initial={{left:'-36%'}}
       whileInView={{left:'-24%'}}

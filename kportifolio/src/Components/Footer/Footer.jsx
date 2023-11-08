@@ -25,7 +25,7 @@ const Footer = () => {
 
     </div>
     <div className="footer1">
-                <p className="text-center"> Copyright&copy;{new Date().getFullYear()} All rights reserved |Powered by Martin kavindu   </p>
+                <p className="text-center"> Copyright&copy;{new Date().getFullYear()} All rights reserved. Martin kavindu   </p>
             </div>
 </div>
     </div>

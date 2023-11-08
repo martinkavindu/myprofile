@@ -67,6 +67,7 @@ align-self: start;
 @media screen and (max-width:480px) {
     .t-wrapper{
         padding: 0;
+        margin-top: -10rem;
     }
     .testimonial>img{
         width: 70px;

@@ -4,7 +4,8 @@
     justify-content: center;
     gap: 5rem;
     height: 30vh;
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
 
 }
 .achievement{
@@ -48,6 +49,7 @@
         display: flex;
         align-items: center;
         gap: 1rem;
+        margin-top: 12rem;
     }
 
 }

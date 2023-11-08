@@ -31,7 +31,7 @@ const Navbar = () => {
     
    <div className='n-wrapper' id='Navbar'>
     <div className='n-left'>
-        <div className='name'> Martin</div>
+        <div className='name'> Martin </div>
      <Toggle/>
     </div>
     <div className='n-right'>
