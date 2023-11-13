@@ -4,6 +4,11 @@ import Aos from "aos";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Profile from "./components/UI/Profile";
+import Services from "./components/UI/Services";
+import Portifolio from "./components/UI/Portifolio";
+import Contact from "./components/UI/Contact";
+import Technologies from "./components/UI/Technologies";
+
 
 function App() {
   useEffect(() => {
@@ -11,9 +16,14 @@ function App() {
   }, []);
   return (
     <>
+
       <Header />
       <main>
         <Profile/>
+        <Services/>
+        <Portifolio/>
+        <Technologies/>
+        <Contact/>
       </main>
       <Footer />
     </>
