@@ -66,21 +66,24 @@ const Technologies = () => {
     >
       <div
         className="max-w-screen-lg mx-auto p-4 flex flex-col
-        justify-center w-full h-full text-black"
+        justify-center w-full h-full text-white"
       >
-        <div>
-          <p className="text-4xl font-bold p-2 inline ">
-            Technologies
-          </p>
-          <p className="py-6">These are the Technologies i have experience with</p>
-        </div>
+             <div className="mb-7 sm:mb-0">
+            <h3 className="text-white text-[1.8rem] font-bold">
+            Skills
+            </h3>
+    
+            <p className="text-white text-[18px]">
+            These are the <span className="text-green-600 font-semibold">Technologies</span> i have experience with:
+            </p>
+          </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3
         gap-8 text-center py-8 px-12 sm:px-0">
 
             {
                 techs.map(({id,src,title,style})=>(
                     <div
-                    key ={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+                    key ={id} className={`shadow-lg hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
                     <img src={src} alt=""  className="w-20 mx-auto" />
                     <p className="mt-4">{title}</p>
                   </div>

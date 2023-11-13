@@ -48,8 +48,8 @@ const Header = () => {
             </span>
 
             <div className="leading-[20px]">
-              <h2 className="text-xl text-smallTextColor font-[700]">Mutuku</h2>
-              <p className="text-smallTextColor text-[16px]">Kavindu</p>
+              <h2 className="text-xl text-gray-300 font-[700]">Mutuku</h2>
+              <p className="text-gray-400 text-[16px]">Kavindu</p>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600] hover:text-orange-600"
+                  className="text-gray-400 font-[600] hover:text-orange-600"
                   href="#about"
                 >
                   About
@@ -67,7 +67,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600] hover:text-orange-600"
+                  className="text-gray-400 font-[600] hover:text-orange-600"
                   href="#services"
                 >
                   Services
@@ -76,7 +76,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600] hover:text-orange-600"
+                  className="text-gray-400 font-[600] hover:text-orange-600"
                   href="#portifolio"
                 >
                   Portifolio
@@ -85,7 +85,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600] hover:text-orange-600"
+                  className="text-gray-400 font-[600] hover:text-orange-600"
                   href="#skills"
                 >
                   Skills
@@ -94,7 +94,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={handleClick}
-                  className="text-smallTextColor font-[600] hover:text-orange-600"
+                  className="text-gray-400 font-[600] hover:text-orange-600"
                   href="#contact"
                 >
                   Contact
@@ -103,16 +103,18 @@ const Header = () => {
             </ul>
           </div>
           <div className=" flex items-center gap-4">
+            <a href="#contact">
             <button
-              className="flex items-center gap-2 text-smallTextColor font-[609] border border-solid
-    border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor
+              className="flex items-center gap-2 text-blue-600 font-[609] border border-solid
+    border-gray py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor
     hover:text-white hover:font-[500] ease-in duration-300"
             >
               <i class="ri-mail-send-fill"></i> Get in touch
             </button>
-
+            </a>
+            
             <span onClick={toggleMenu}
-            className="text-xl text-smallTextColor md:hidden cursor-pointer">
+            className="text-xl text-gray-300 md:hidden cursor-pointer">
               <i class="ri-menu-line"></i>
             </span>
           </div>

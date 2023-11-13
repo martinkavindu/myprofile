@@ -10,14 +10,14 @@ const Profile = () => {
             <h4
               data-aos="fade-right"
               data-aos-duration="2000"
-              className="text-headingColor font-[600] text-[16px]"
+              className="text-white font-[600] text-[16px]"
             >
               Hello Welcome 👋
             </h4>
             <h1
               data-aos="fade-up"
               data-aos-duration="2000"
-              className="text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px]
+              className="text-white font-[800] text-[1.8rem] sm:text-[40px] leading-[35px]
                 sm:leading-[46px] mt-5"
             >
               I'm Mutuku Kavindu <br /> Software Developer
@@ -38,7 +38,7 @@ const Profile = () => {
               </a>
               <a
                 href="#portifolio"
-                className="text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor"
+                className="text-gray-400 font-[600] text-[16px] border-b border-solid border-smallTextColor"
               >
                 See Portifolio
               </a>
@@ -46,7 +46,7 @@ const Profile = () => {
             <p
               data-aos="fade-left"
               data-aos-duration="1500"
-              className="flex gap-2 text-headingColor font-[500] text-[15px] leading-7 mt-14 sm:pl-14 sm:pr-10"
+              className="flex gap-2 text-gray-200 font-[500] text-[15px] leading-7 mt-14 sm:pl-14 sm:pr-10"
             >
               <span>
                 <i class="ri-apps-fill"></i>
@@ -58,14 +58,14 @@ const Profile = () => {
               and i am always eager to explore emaerging technologies.
             </p>
             <div className="flex items-center gap-9 mt-14">
-              <span className="text-smallTextColor text-[15px] font-[600]">
+              <span className="text-blue-600 text-[15px] font-[600]">
                 Follow:
               </span>
               <span>
                 {" "}
                 <a
                   href="#github"
-                  className="text-smallTextColor text-[15px] font-[600]"
+                  className="text-gray-400 text-[15px] font-[600]"
                 >
                   <i class="ri-github-fill"></i>
                 </a>
@@ -75,7 +75,7 @@ const Profile = () => {
                 {" "}
                 <a
                   href="#facebook"
-                  className="text-smallTextColor text-[15px] font-[600]"
+                  className="text-gray-400 text-[15px] font-[600]"
                 >
                   <i class="ri-facebook-circle-fill"></i>
                 </a>
@@ -84,7 +84,7 @@ const Profile = () => {
                 {" "}
                 <a
                   href="#twitter"
-                  className="text-smallTextColor text-[15px] font-[600]"
+                  className="text-gray-400 text-[15px] font-[600]"
                 >
                   <i class="ri-twitter-x-fill"></i>
                 </a>
@@ -93,7 +93,7 @@ const Profile = () => {
                 {" "}
                 <a
                   href="#whatsapp"
-                  className="text-smallTextColor text-[15px] font-[600]"
+                  className="text-gray-400 text-[15px] font-[600]"
                 >
                   <i class="ri-whatsapp-fill"></i>
                 </a>
@@ -112,42 +112,42 @@ const Profile = () => {
 md:flex-col md:justify-end md:text-end"
           >
             <div className="mb-10">
-              <h2 className="text-headingColor font-[700] text-[32px]">
+              <h2 className="text-gray-400 font-[700] text-[32px]">
                 <CountUp start={0} end={3} duration={1} suffix="+" />{" "}
               </h2>
 
-              <h4 className="text-headingColor font-[600] text-[18px]">
+              <h4 className="text-white font-[600] text-[18px]">
                 {" "}
                 Years of Experience{" "}
               </h4>
             </div>
             <div className="mb-10">
-              <h2 className="text-headingColor font-[700] text-[32px]">
+              <h2 className="text-gray-400 font-[700] text-[32px]">
                 <CountUp start={0} end={100} duration={1} suffix="%" />{" "}
               </h2>
 
-              <h4 className="text-headingColor font-[600] text-[18px]">
+              <h4 className="text-white font-[600] text-[18px]">
                 {" "}
                 Success role{" "}
               </h4>
             </div>
 
             <div className="mb-10">
-              <h2 className="text-headingColor font-[700] text-[32px]">
+              <h2 className="text-gray-400 font-[700] text-[32px]">
                 <CountUp start={0} end={20} duration={1} suffix="+" />{" "}
               </h2>
 
-              <h4 className="text-headingColor font-[600] text-[18px]">
+              <h4 className="text-white font-[600] text-[18px]">
                 {" "}
                 Projects Done{" "}
               </h4>
             </div>
             <div className="mb-10">
-              <h2 className="text-headingColor font-[700] text-[32px]">
+              <h2 className="text-gray-400 font-[700] text-[32px]">
                 <CountUp start={0} end={99} duration={1} suffix="%" />{" "}
               </h2>
 
-              <h4 className="text-headingColor font-[600] text-[18px]">
+              <h4 className="text-white font-[600] text-[18px]">
                 competence
               </h4>
             </div>

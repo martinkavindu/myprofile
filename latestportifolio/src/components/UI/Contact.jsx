@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id="contact" className="mt-16 mb-16">
       <div className="container">
-        <h2 className="text-headingColor font-[700] text-[2.4rem] mb-9">
+        <h2 className="text-white font-[700] text-[2.4rem] mb-9">
             Let's Talk Business
         </h2>
         <div className=" md:flex items-center justify-between">

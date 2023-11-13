@@ -40,27 +40,27 @@ const Portifolio = () => {
       <div className="container">
         <div className=" flex items-center justify-between flex-wrap">
           <div className="mb-7 sm:mb-0">
-            <h3 className="text-headingColor text-[1rem] font-[400]">
+            <h3 className="text-white text-[1.8rem] font-[600]">
               MY WORK
             </h3>
             <h1 className="text-green-600 text-[2rem] font-bold ">
               Recent Projects
             </h1>
-            <p className="text-primaryColor text-[15px]">
+            <p className="text-gray-400 text-[15px]">
               Here are some projects I've worked on.
             </p>
           </div>
 
           <div className=" flex gap-3">
-            <button onClick={()=> setSelectTab('all')} className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]">
+            <button onClick={()=> setSelectTab('all')} className="text-white border border-solid border-gray-300 py-2 px-4 rounded-[8px]">
               All
             </button>
             <button onClick={()=> setSelectTab('Full-stack')}
-             className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]">
+             className="text-white border border-solid border-gray-300 py-2 px-4 rounded-[8px]">
               Full-stack
             </button>
             <button onClick={()=> setSelectTab('Frontend')}
-            className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]">
+            className="text-white border border-solid border-gray-300 py-2 px-4 rounded-[8px]">
               Frontend
             </button>
           </div>

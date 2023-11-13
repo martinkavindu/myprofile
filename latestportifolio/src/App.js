@@ -10,6 +10,8 @@ import Contact from "./components/UI/Contact";
 import Technologies from "./components/UI/Technologies";
 
 
+
+
 function App() {
   useEffect(() => {
     Aos.init();
@@ -19,6 +21,7 @@ function App() {
 
       <Header />
       <main>
+  
         <Profile/>
         <Services/>
         <Portifolio/>
@@ -26,6 +29,7 @@ function App() {
         <Contact/>
       </main>
       <Footer />
+    
     </>
   );
 }
