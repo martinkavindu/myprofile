@@ -78,7 +78,7 @@ const Contact = () => {
                     className="w-full p-3 focus:outline-none rounded-[5px]"/>
                 </div>
                 {done ? (
-          <div className="text-green-500 font-bold mb-4">
+          <div className="text-green-500 font-semibold mb-4">
             Message sent successfully! We'll get back to you soon.
           </div> ):(
                 <button
