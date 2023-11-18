@@ -1,5 +1,6 @@
-import React, { useRef, useEffect,useState} from "react";
+import React, { useRef, useEffect, useState } from "react";
 import emailjs from 'emailjs-com';
+
 const Contact = () => {
   const form = useRef();
   const [done, setDone] = useState(false);
@@ -12,23 +13,25 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_pj9cbxo', 'template_98m7ktd', form.current,'08mPFcjipVydQw64F')
+      .sendForm('service_pj9cbxo', 'template_98m7ktd', form.current, '08mPFcjipVydQw64F')
       .then((result) => {
         console.log(result.text);
         setDone(true);
-        form.current.reset(); // Reset the form fields
+        form.current.reset(); 
       })
       .catch((error) => {
         console.log(error.text);
       });
   };
+
   return (
     <section id="contact" className="mt-16 mb-16">
       <div className="container">
         <h2 className="text-white font-[700] text-[2.4rem] mb-9">
-            Let's Talk <span className="text-red-600">Business</span> 
+          Let's Talk <span className="text-red-600">Business</span>
         </h2>
-        <div className=" md:flex items-center justify-between">
+      
+          <div className="md:flex items-center justify-between">
           <div className="w-full md:w-1/2 h-[300px] sm:h-[450px]">
             <iframe
             title="goggle maps"
@@ -39,12 +42,11 @@ const Contact = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-
-          <div className="w-full mt-8 md:mt-0 md:w-1/2  sm:h-[450px] lg:flex items-center bg-indigo-100 px-4
-          lg:px-8 py-8">
-            <form className="w-full" ref={form} onSubmit={sendEmail}>
-                <div className="mb-5">
+            <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8">
+              <form className="w-full" ref={form} onSubmit={sendEmail}>
+             <div className="mb-5">
                     <input 
+                    required
                     type="text"
                     name="user_name"
                     placeholder="Enter your name"
@@ -52,6 +54,7 @@ const Contact = () => {
                 </div>
                 <div className="mb-5">
                     <input 
+                    required
                     name="user_email"
                     type="email"
                     placeholder="Enter your email"
@@ -59,6 +62,7 @@ const Contact = () => {
                 </div>
                 <div className="mb-5">
                     <input 
+                    required
                     type="text"
                     name="subject"
                     placeholder="Subject"
@@ -66,18 +70,29 @@ const Contact = () => {
                 </div>
                 <div className="mb-5">
                     <textarea
+                    required
                     type="text"
                     name="message"
                     placeholder="write message"
                     rows={3}
                     className="w-full p-3 focus:outline-none rounded-[5px]"/>
                 </div>
-                <button type="submit" className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white
-                hover:bg-headingColor text-center ease-linear duration-150"> Send Message</button>
-            </form>
-
+                {done ? (
+          <div className="text-green-500 font-bold mb-4">
+            Message sent successfully! We'll get back to you soon.
+          </div> ):(
+                <button
+                  type="submit"
+                  className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white
+                  hover:bg-headingColor text-center ease-linear duration-150"
+                >
+                  Send Message
+                </button>
+          )}
+              </form>
+            </div>
           </div>
-        </div>
+     
       </div>
     </section>
   );
