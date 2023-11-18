@@ -9,7 +9,7 @@ const Services = () => {
       <div className="container lg:pt-7">
         <div className="text-center">
           <h2 className="text-white font-[800] text-[2.4rem] mb-5">
-            My awesome <span className="text-orange-600">Services</span>
+            My awesome <span className="text-red-600">Services</span>
           </h2>
           <p className="lg:max-w-[600px] lg:mx-auto text-gray-400 font-[500] text-[16px] leading-7">
             Developing and mantaining web applications using React and nodejs

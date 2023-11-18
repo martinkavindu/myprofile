@@ -20,7 +20,8 @@ const Profile = () => {
               className="text-white font-[800] text-[1.8rem] sm:text-[40px] leading-[35px]
                 sm:leading-[46px] mt-5"
             >
-              I'm Mutuku Kavindu <br /> Software Developer
+              I'm Mutuku Kavindu <br /><span className="text-red-600">
+              Software Developer</span> 
             </h1>
             <div
               data-aos="fade-up"
@@ -48,14 +49,11 @@ const Profile = () => {
               data-aos-duration="1500"
               className="flex gap-2 text-gray-200 font-[500] text-[15px] leading-7 mt-14 sm:pl-14 sm:pr-10"
             >
-              <span>
-                <i class="ri-apps-fill"></i>
-              </span>{" "}
               I am a passionate full stack developer majoring in
               Javascript/Nodejs technologies. I can proficiently develop
               backends in Nodejs,Express.js and MongoDb. I am well-versed in
               modern frontend frameworks such as React, Tailwind CSS ,bootstrap
-              and i am always eager to explore emaerging technologies.
+              and i am always eager to explore emerging technologies.
             </p>
             <div className="flex items-center gap-9 mt-14">
               <span className="text-blue-600 text-[15px] font-[600]">
@@ -64,36 +62,46 @@ const Profile = () => {
               <span>
                 {" "}
                 <a
-                  href="#github"
-                  className="text-gray-400 text-[15px] font-[600]"
+                  href="https://github.com/Mutuku1998"
+                  className="text-gray-400 text-[16px] font-[600] border border-red-500 p-1 rounded-full"
                 >
                   <i class="ri-github-fill"></i>
+                </a>
+              </span>
+              <span>
+                {" "}
+                <a
+                  href="tel:+254741934896"
+                  className="text-gray-400 text-[16px] font-[600] border border-red-500 p-1 rounded-full"
+                >
+                 <i class="ri-phone-fill"></i>
                 </a>
               </span>
 
               <span>
                 {" "}
                 <a
-                  href="#facebook"
-                  className="text-gray-400 text-[15px] font-[600]"
+                  href="https://www.facebook.com/"
+                  className="text-gray-400 text-[16px] font-[600] border border-red-500 p-1 rounded-full"
                 >
                   <i class="ri-facebook-circle-fill"></i>
                 </a>
               </span>
               <span>
-                {" "}
-                <a
-                  href="#twitter"
-                  className="text-gray-400 text-[15px] font-[600]"
-                >
-                  <i class="ri-twitter-x-fill"></i>
-                </a>
-              </span>
+  {" "}
+  <a
+    href="https://twitter.com/intent/follow?screen_name=fallenherro1"
+    className="text-gray-400 text-[16px] font-[600] border border-red-500 p-1 rounded-full"
+  >
+    <i className="ri-twitter-x-fill"></i>
+  </a>
+</span>
+
               <span>
                 {" "}
                 <a
-                  href="#whatsapp"
-                  className="text-gray-400 text-[15px] font-[600]"
+                  href="https://wa.me/254741934896"
+                  className="text-gray-400 text-[16px] font-[600] border border-red-500 p-1 rounded-full"
                 >
                   <i class="ri-whatsapp-fill"></i>
                 </a>

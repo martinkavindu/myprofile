@@ -18,7 +18,7 @@ const Header = () => {
   };
   useEffect(() => {
     stickyHeaderFunc();
-    return;
+    return
     window.removeEventListener("scroll", stickyHeaderFunc);
   }, []);
 
@@ -39,19 +39,19 @@ const Header = () => {
     >
       <div className="container">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-[10px]">
-            <span
-              className="w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500]
-            rounded-full flex items-center justify-center"
-            >
-              MK
-            </span>
+        <div className="flex items-center gap-[10px] ml-0">
+  <span
+    className="w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500]
+    rounded-full flex items-center justify-center"
+  >
+    MK
+  </span>
 
-            <div className="leading-[20px]">
-              <h2 className="text-xl text-gray-300 font-[700]">Mutuku</h2>
-              <p className="text-gray-400 text-[16px]">Kavindu</p>
-            </div>
-          </div>
+  <div className="leading-[20px]">
+    <h2 className="text-xl text-gray-300 font-[700]">Mutuku</h2>
+    <p className="text-gray-400 text-[16px]">Kavindu</p>
+  </div>
+</div>
 
           <div className="menu" ref={menuRef} onClick={toggleMenu}>
             <ul className="flex items-center gap-10">

@@ -32,7 +32,7 @@ const Footer = () => {
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="#github"
+                  href="https://github.com/Mutuku1998"
                   className="text-gray-300  font-[500 text-[18px]"
                 >
                   <i class="ri-github-fill"></i>
@@ -40,7 +40,7 @@ const Footer = () => {
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="#twitter"
+                  href="https://twitter.com/intent/follow?screen_name=fallenherro1"
                   className="text-gray-300  font-[500 text-[18px]"
                 >
                   <i class="ri-twitter-x-fill"></i>
@@ -48,7 +48,7 @@ const Footer = () => {
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="facebook"
+                  href="https://www.facebook.com/"
                   className="text-gray-300  font-[500 text-[18px]"
                 >
                   <i class="ri-facebook-circle-fill"></i>
@@ -56,7 +56,7 @@ const Footer = () => {
               </span>{" "}
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="whatsapp"
+                  href="https://wa.me/254741934896"
                   className="text-gray-300  font-[500 text-[18px]"
                 >
                   <i class="ri-whatsapp-fill"></i>
