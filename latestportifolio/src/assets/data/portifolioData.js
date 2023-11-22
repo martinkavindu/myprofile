@@ -5,6 +5,9 @@ import portfolioImg04 from "../images/project4.jpg";
 import portfolioImg05 from "../images/project8.png";
 import portfolioImg06 from "../images/project6.png";
 import portfolioImg07 from "../images/project1.png";
+import portfolioimg08 from '../images/project10.png';
+import portfolioimg09 from '../images/project13.png';
+import portfolioimg10 from "../images/project 12.png"
 
 const portfolios = [
   {
@@ -84,6 +87,28 @@ const portfolios = [
       "A company website meant for  business's online presence, serving various purposes that contribute to its overall success. For example marketing, customer communication and support",
     technologies: ["React", "Tailwind css", "HTML"],
     siteUrl: "https://ngaochemist.netlify.app/",
+  },
+  {
+    id: "08",
+    imgUrl: portfolioimg08,
+    style: "shadow-gray-600",
+    category: "Full-stack",
+    title: "Almedina hardware online store(UI)",
+    description:
+      "Its e-commerce application meant for  customers to access their favorite commodities over internet rather than physical appearance at shop also serving various purposes that contribute to its overall success. For example marketing, customer communication and support",
+    technologies: ["React", "Bootstrap", "HTML"],
+    siteUrl: "#",
+  },
+  {
+    id: "09",
+    imgUrl: portfolioimg09,
+    style: "shadow-green-600",
+    category: "Frontend",
+    title: "Mathematical calculator",
+    description:
+      "react application for perfoming arithmetic operations",
+    technologies: ["React", "CSS", "HTML"],
+    siteUrl: "#",
   },
   
 ];
