@@ -8,6 +8,7 @@ import Services from "./components/UI/Services";
 import Portifolio from "./components/UI/Portifolio";
 import Contact from "./components/UI/Contact";
 import Technologies from "./components/UI/Technologies";
+import Floatingbutton from "./components/UI/Floatingbutton";
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Portifolio/>
         <Technologies/>
         <Contact/>
+        <Floatingbutton/>
       </main>
       <Footer />
     

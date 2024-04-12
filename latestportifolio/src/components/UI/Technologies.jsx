@@ -4,9 +4,11 @@ import css from "../../assets/images/css.webp";
 import javascript from "../../assets/images/javascript.webp";
 import tailwind from "../../assets/images/tailwind.webp";
 import reactimg from "../../assets/images/react.webp";
-import mongodb from "../../assets/images/mongodb.png";
+import mysql from "../../assets/images/mysql.jpeg";
 import node from "../../assets/images/node.png";
-import github from "../../assets/images/github.png"
+import github from "../../assets/images/github.png";
+import codeigniter from "../../assets/images/codeigniter.png";
+import laravel from "../../assets/images/laravel.png"
 
 const Technologies = () => {
 
@@ -49,8 +51,8 @@ const Technologies = () => {
     },
     {
         id:"7",
-        src:mongodb,
-        title:"Mongo DB",
+        src:mysql,
+        title:"MySQL",
         style:"shadow-green-600"
     },
     {
@@ -59,6 +61,18 @@ const Technologies = () => {
         title:"Github",
         style:"shadow-gray-400"
     },
+    {
+      id:"9",
+      src:codeigniter,
+      title:"codeigniter",
+      style:"shadow-red-400"
+  },
+  {
+    id:"10",
+    src:laravel,
+    title:"laravel",
+    style:"shadow-orange-400"
+},
 ]
   return (
     <section id="skills">

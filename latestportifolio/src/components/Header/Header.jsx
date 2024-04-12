@@ -1,26 +1,10 @@
 import React from "react";
-import { useEffect, useRef } from "react";
+import {  useRef } from "react";
 const Header = () => {
   const headerRef = useRef(null);
   const menuRef = useRef(null);
 
-  const stickyHeaderFunc = () => {
-    window.addEventListener("scroll", () => {
-      if (
-        document.body.scrollTop > 80 ||
-        document.documentElement.scrollTop > 80
-      ) {
-        headerRef.current.classList.add("sticky_header");
-      } else {
-        headerRef.current.classList.remove("sticky_header");
-      }
-    });
-  };
-  useEffect(() => {
-    stickyHeaderFunc();
-    return
-    window.removeEventListener("scroll", stickyHeaderFunc);
-  }, []);
+  
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -38,7 +22,7 @@ const Header = () => {
       className="w-full h-[80px] leading-[80px] flex items-center"
     >
       <div className="container">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between  sticky">
         <div className="flex items-center gap-[10px] ml-0">
   <span
     className="w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500]

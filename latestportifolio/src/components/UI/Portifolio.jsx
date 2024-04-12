@@ -42,7 +42,7 @@ const Portifolio = () => {
               Recent Projects
             </h1>
             <p className="text-gray-400 text-[15px]">
-              Here are some projects I've worked on.
+              Here are some Programming projects I've worked on.
             </p>
           </div>
 

@@ -149,7 +149,7 @@ group-hover:font-[600] text-xl"
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
                           I possess a solid grasp of backend development
                           processes and can construct websites from the scratch.
-                          I have hands-on experience with Node.js, Express.js,
+                          I have hands-on experience with  Laravel ,Codeigniter ,Node.js, Express.js,MySQL
                           and MongoDB
                         </p>
                       </div>

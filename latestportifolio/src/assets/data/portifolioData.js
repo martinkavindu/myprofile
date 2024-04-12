@@ -7,7 +7,9 @@ import portfolioImg06 from "../images/project6.png";
 import portfolioImg07 from "../images/project1.png";
 import portfolioimg08 from '../images/project10.png';
 import portfolioimg09 from '../images/project13.png';
-import portfolioimg10 from "../images/project 12.png"
+import payment from '../images/payment.png';
+import poultry from  '../images/payment.png';
+
 
 const portfolios = [
   {
@@ -34,14 +36,14 @@ const portfolios = [
   },
   {
     id: "03",
-    imgUrl: portfolioImg02,
+    imgUrl: payment,
     style: "shadow-gray-600",
     category: "Full-stack",
-    title: "Online DM and Hypertension web app",
+    title: "Payment integration,both bank and mpesa",
     description:
-      "its a web based application for diabetes and hypertension patients to book apponitments for physicians and also get medical advice on the platform.This app will help to reach patients living in remote areas",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "Collaborated with team building visa application portal ,where i did payment integration and other functionalities",
+    technologies: ["React", "Codeigniter", "MySQL"],
+    siteUrl: "https://wa.me/254741934896",
   },
   {
     id: "04",
@@ -63,20 +65,22 @@ const portfolios = [
     description:
       "its a web based application for diabetes and hypertension patients to book apponitments for physicians and also get medical advice on the platform.This app will help to reach patients living in remote areas",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    siteUrl: "https://wa.me/254741934896",
   },
 
   {
     id: "06",
-    imgUrl: portfolioImg06,
+    imgUrl: poultry,
     style: "shadow-green-600",
-    category: "Frontend",
-    title: "Weathet app",
+    category: "Full-stack",
+    title: "Poultry Care System",
     description:
-      "Friendly weather application which serves different purposes thats Real-time weather updates,daily forecast and global monitoring",
-    technologies: ["React", "CSS", "HTML"],
-    siteUrl: "https://mutukuweather.netlify.app/",
+      "Poultry farming system ,very good functionalities like eggs production management,hatchery management,orders ,sales and expenses management.Additionally it has all kind of reports in poultry farming ",
+    technologies: ["Larevel", "MySQL"],
+    siteUrl: "https://wa.me/254741934896",
   },
+
+
   {
     id: "07",
     imgUrl: portfolioImg07,
@@ -97,19 +101,20 @@ const portfolios = [
     description:
       "Its e-commerce application meant for  customers to access their favorite commodities over internet rather than physical appearance at shop also serving various purposes that contribute to its overall success. For example marketing, customer communication and support",
     technologies: ["React", "Bootstrap", "HTML"],
-    siteUrl: "#",
+    siteUrl: "https://wa.me/254741934896",
   },
   {
-    id: "09",
-    imgUrl: portfolioimg09,
+    id: "06",
+    imgUrl: portfolioImg06,
     style: "shadow-green-600",
     category: "Frontend",
-    title: "Mathematical calculator",
+    title: "Weathet app",
     description:
-      "react application for perfoming arithmetic operations",
+      "Friendly weather application which serves different purposes thats Real-time weather updates,daily forecast and global monitoring",
     technologies: ["React", "CSS", "HTML"],
-    siteUrl: "#",
+    siteUrl: "https://mutukuweather.netlify.app/",
   },
+
   
 ];
 

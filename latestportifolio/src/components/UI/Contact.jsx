@@ -35,7 +35,7 @@ const Contact = () => {
           <div className="w-full md:w-1/2 h-[300px] sm:h-[450px]">
             <iframe
             title="goggle maps"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.828617064196!2d39.849088474456394!3d-3.62659364266165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x183fdd705dd56ff7%3A0x56126f4bed0c4a55!2sNgao%20Chemist!5e0!3m2!1sen!2ske!4v1699781940348!5m2!1sen!2ske"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7558288160035!2d36.90269177496575!3d-1.322310498665142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f130ed1b46f41%3A0x7628cdb152894121!2sCYFRAS%20TECHNOLOGIES!5e0!3m2!1sen!2ske!4v1709139915810!5m2!1sen!2ske"
            className="w-full border-0 h-full"
               allowFullScreen=""
               loading="lazy"
