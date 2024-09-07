@@ -42,6 +42,7 @@ body {
   }
   .menu ul {
     width: 15rem;
+    display: none;
     height: 100%;
     position: absolute;
     top: 0;

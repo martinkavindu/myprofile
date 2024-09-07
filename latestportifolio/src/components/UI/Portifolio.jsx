@@ -38,12 +38,9 @@ const Portifolio = () => {
         <div className=" flex items-center justify-between flex-wrap">
           <div className="mb-7 sm:mb-0">
             <h3 className="text-white text-[1.8rem] font-[600]">MY WORK</h3>
-            <h1 className="text-green-600 text-[2rem] font-bold ">
-              Recent Projects
-            </h1>
-            <p className="text-gray-400 text-[15px]">
-              Here are some Programming projects I've worked on.
-            </p>
+            <p className="text-green-600 text-[2rem]  ">
+              Work that I've done for the past 3 years</p>
+          
           </div>
 
           <div className=" flex gap-3">

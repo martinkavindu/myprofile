@@ -9,6 +9,7 @@ import Portifolio from "./components/UI/Portifolio";
 import Contact from "./components/UI/Contact";
 import Technologies from "./components/UI/Technologies";
 import Floatingbutton from "./components/UI/Floatingbutton";
+import Workexperience from "./components/UI/Workexperience";
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Profile/>
         <Services/>
         <Portifolio/>
+        <Workexperience/>
         <Technologies/>
         <Contact/>
         <Floatingbutton/>

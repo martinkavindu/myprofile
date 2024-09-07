@@ -22,7 +22,7 @@ const Profile = () => {
               data-aos-duration="2000"
               className="text-white font-[600] text-[16px]"
             >
-              Hello Welcome 👋
+              Hello There 👋
             </h4>
             <h1
               data-aos="fade-up"
@@ -31,7 +31,7 @@ const Profile = () => {
                 sm:leading-[46px] mt-5"
             >
               I'm Mutuku Kavindu <br />
-              <span className="text-red-600">Software Developer</span>
+              <span className="text-red-600">Full Stack Developer</span>
             </h1>
             <div
               data-aos="fade-up"
@@ -39,12 +39,12 @@ const Profile = () => {
               data-aos-delay="200"
               className="flex items-center gap-6 mt-7"
             >
-              <a href="#contact">
+              <a href="#">
                 <button
                   className="bg-primaryColor text-white font-[500] flex items-center gap-2
                     hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]"
                 >
-                  <i class="ri-mail-open-line"></i> Hire Me
+                   Download Resume
                 </button>
               </a>
               <a
@@ -59,10 +59,10 @@ const Profile = () => {
               data-aos-duration="1500"
               className="flex gap-2 text-gray-200 font-[500] text-[15px] leading-7 mt-14 sm:pl-14 sm:pr-10"
             >
-              I am a passionate full-stack developer proficient in developing
+              I am a Certified full-stack developer proficient in developing
               backends using PHP frameworks like Laravel and CodeIgniter, as
               well as JavaScript with Node.js and Express. Additionally, I am
-              well-versed in modern frontend frameworks such as React, Tailwind
+              well-versed in modern frontend frameworks such as React, Tailwind CSS,HTML,Javascript
               CSS, and Bootstrap. I am always eager to explore emerging
               technologies
             </p>
@@ -73,7 +73,7 @@ const Profile = () => {
               <span>
                 {" "}
                 <a
-                  href="https://github.com/Mutuku1998"
+                  href="https://github.com/martinkavindu"
                   className="text-gray-400 text-[16px] font-[600] border border-red-500 p-1 rounded-full"
                 >
                   <i class="ri-github-fill"></i>
@@ -142,7 +142,7 @@ md:flex-col md:justify-end md:text-end"
             </div>
             <div className="mb-10">
               <h2 className="text-gray-400 font-[700] text-[32px]">
-                <CountUp start={0} end={100} duration={1} suffix="%" />{" "}
+                <CountUp start={0} end={98} duration={1} suffix="%" />{" "}
               </h2>
 
               <h4 className="text-white font-[600] text-[18px]">
