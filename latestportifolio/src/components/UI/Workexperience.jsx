@@ -41,7 +41,7 @@ const Workexperience = () => {
       <span className="text-orange-600 font-semibold">Dapa Company</span>, IT Officer
     </p>
     <p className="text-white text-[15px]">
-      I work on a variety of projects as a freelancer. Stack includes HTML, CSS, and JavaScript.
+      I work on a variety of projects as a Developer as well as ict Support. Stack includes HTML, CSS, and JavaScript.
     </p>
   </div>
 </div>

@@ -27,7 +27,7 @@ const portfolios = [
     siteUrl: "https://app.uws.co.ke/",
     },
     {
-      id:"11",
+      id:"12",
       imgUrl: oryx,
       category: "Frontend",
       title: "Visa Application Portal",

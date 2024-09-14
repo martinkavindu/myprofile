@@ -12,7 +12,7 @@ const Services = () => {
             My awesome <span className="text-red-600">Services</span>
           </h2>
           <p className="lg:max-w-[600px] lg:mx-auto text-gray-400 font-[500] text-[16px] leading-7">
-            Developing and mantaining web applications using React and nodejs
+            Developing and mantaining web applications using PHP frameworks and Javascript 
             and other related modern techonologies. . Implementing responsive
             design and ensuring cross-browser compatibility
           </p>
@@ -149,8 +149,7 @@ group-hover:font-[600] text-xl"
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
                           I possess a solid grasp of backend development
                           processes and can construct websites from the scratch.
-                          I have hands-on experience with  Laravel ,Codeigniter ,Node.js, Express.js,MySQL
-                          and MongoDB
+                          I have hands-on experience with  Laravel ,Codeigniter and Node.JS
                         </p>
                       </div>
                     </div>
