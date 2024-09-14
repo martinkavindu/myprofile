@@ -39,7 +39,7 @@ const Profile = () => {
               data-aos-delay="200"
               className="flex items-center gap-6 mt-7"
             >
-              <a href="#">
+              <a href="/developer cv.pdf" download="mutuku.pdf">
                 <button
                   className="bg-primaryColor text-white font-[500] flex items-center gap-2
                     hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]"
@@ -62,7 +62,7 @@ const Profile = () => {
               I am a Certified full-stack developer proficient in developing
               backends using PHP frameworks like Laravel and CodeIgniter, as
               well as JavaScript with Node.js and Express. Additionally, I am
-              well-versed in modern frontend frameworks such as React, Tailwind CSS,HTML,Javascript
+              well-versed in modern frontend Stacks such as React, Tailwind CSS,HTML,Javascript
               CSS, and Bootstrap. I am always eager to explore emerging
               technologies
             </p>
